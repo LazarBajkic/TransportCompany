@@ -5,9 +5,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="CenteredContentOneRow.css">
+<link rel="stylesheet" type="text/css" href="CenteredContentOneColumn.css">
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>Manager Page</title>
 </head>
 <body>
 	
@@ -16,6 +16,15 @@
 	response.setHeader("Cache-Control","no-cache,no-store,must-revalidate");
 	
 	%>
+	
+	<div class="center-container">
+	<div class="center-div">
+	
+	Welcome manager,here you will be managing,all the drivers,their availability,where are they currently<br>you will also be keeping track of all deliveries
+	as well as register pending deliveries<br>as well as finalize finished deliveries,we wish you the best of luck!
+	
+	</div>
+	</div>
 	
 <div class="center-container">
 <div class="center-div">

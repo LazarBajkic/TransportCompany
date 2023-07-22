@@ -5,9 +5,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="CenteredContentOneRow.css">
+<link rel="stylesheet" type="text/css" href="CenteredContentOneColumn.css">
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>Admin Page</title>
 </head>
 <body>
 
@@ -19,9 +19,11 @@
 
 	<div class="center-container">
 	<div class="center-div">
-
+	
 	<form action="adminActions?action=addManager" method="post">
 	
+	<h2>Add a new manager</h2>
+		
 	To add a manager,input the id of the manager,name and the branch they are in.
 	<br>
 	
@@ -50,6 +52,8 @@
 	<br>
 	
 	<form action="adminActions?action=removeManager" method="post">
+	
+	<h2>Remove a new manager</h2>
 	
 	To remove a manager,input the id of the manager and the  manager's name.
 	

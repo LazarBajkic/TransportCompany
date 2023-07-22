@@ -3,9 +3,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="CenteredContentOneRow.css">
+<link rel="stylesheet" type="text/css" href="CenteredContentOneColumn.css">
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>User Page</title>
 </head>
 <body>
 
@@ -39,8 +39,7 @@
 
 	
 	<div class="center-container">
-	<div class="center-div">
-	
+	<div class="center-div">	
 
 <form action="registerDelivery" method="post"> 
 
